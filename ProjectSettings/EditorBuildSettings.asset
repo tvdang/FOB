@@ -6,8 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
   - enabled: 1
-    path: Assets/fob.unity
+    path: Assets/Scenes/fob.unity
   - enabled: 1
-    path: Assets/about.unity
+    path: Assets/Scenes/about.unity
+  - enabled: 1
+    path: Assets/Scenes/Gameover.unity

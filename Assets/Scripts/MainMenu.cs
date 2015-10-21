@@ -30,7 +30,7 @@ public class MainMenu : MonoBehaviour
 
     public void aboutPress()   //about button press
     {
-        Debug.Log("About Pressed");
+        //Debug.Log("About Pressed");
         Application.LoadLevel(2);
 
     }
@@ -59,7 +59,7 @@ public class MainMenu : MonoBehaviour
     }
         public void ExitPress()         // exit press open up exit menu
     {
-        Debug.Log("Exit Prssed");
+        //Debug.Log("Exit Pressed");
         quitMenu.enabled = true;
         scoreMenu.enabled = false;
         startText.enabled = false;
