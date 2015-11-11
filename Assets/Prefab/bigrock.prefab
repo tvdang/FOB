@@ -1,84 +1,70 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &192484
+--- !u!1 &169280
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 496050}
-  - 212: {fileID: 21283100}
-  - 61: {fileID: 6193326}
-  - 50: {fileID: 5094412}
-  - 114: {fileID: 11441460}
+  - 4: {fileID: 496654}
+  - 212: {fileID: 21235168}
+  - 61: {fileID: 6124596}
+  - 50: {fileID: 5044312}
   m_Layer: 0
-  m_Name: Enemy
-  m_TagString: Enemy
+  m_Name: bigrock
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &496050
+--- !u!4 &496654
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192484}
-  m_LocalRotation: {x: 0, y: -.0087265363, z: 0, w: .999961913}
-  m_LocalPosition: {x: 17.7000008, y: 11.3000002, z: 0}
-  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_GameObject: {fileID: 169280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -74.4123154, y: 44.6473923, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!50 &5094412
+--- !u!50 &5044312
 Rigidbody2D:
   serializedVersion: 2
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192484}
-  m_Mass: 1
-  m_LinearDrag: 5
-  m_AngularDrag: .0500000007
+  m_GameObject: {fileID: 169280}
+  m_Mass: 100
+  m_LinearDrag: 0
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!61 &6193326
+  m_Constraints: 3
+--- !u!61 &6124596
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192484}
+  m_GameObject: {fileID: 169280}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: .0890197754, y: .48966217}
   serializedVersion: 2
-  m_Size: {x: 8, y: 12}
---- !u!114 &11441460
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a90a5e9e84b57bc4299b5e43b49c74fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 48
-  player: {fileID: 457102, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
---- !u!212 &21283100
+  m_Size: {x: 6.0413866, y: 9.24013519}
+--- !u!212 &21235168
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192484}
+  m_GameObject: {fileID: 169280}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -97,7 +83,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7d1e718ded87d9546b4cb84fb2efb0c7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 843277d176d997047be1c61112c0d6f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -107,22 +93,22 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
-      propertyPath: m_IsTrigger
+      propertyPath: m_Mass
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 0}
-      propertyPath: m_TagString
-      value: Enemy
+      propertyPath: m_AngularDrag
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 0}
-      propertyPath: speed
-      value: 48
+      propertyPath: m_Constraints
+      value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 457102, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 192484}
+  m_RootGameObject: {fileID: 169280}
   m_IsPrefabParent: 1
