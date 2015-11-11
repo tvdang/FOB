@@ -6,17 +6,18 @@ public class playermobility : MonoBehaviour
 
    //Use this for initialization
    /*/ public float speed;
-    
+    Animator anim;
     
     void Start()
     {
-       
+        anim = GetComponent<Animator>();
     }
 
 
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0)) ;
+        anim.SetTrigger("Attack");
     }
     void FixedUpdate()
     {

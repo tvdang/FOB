@@ -226,6 +226,7 @@ Prefab:
 --- !u!1001 &22916978
 Prefab:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
@@ -271,6 +272,28 @@ Prefab:
   m_IsPrefabParent: 0
 --- !u!1001 &29719081
 Prefab:
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 423238939}
+  - 20: {fileID: 423238938}
+  - 92: {fileID: 423238937}
+  - 124: {fileID: 423238936}
+  - 81: {fileID: 423238935}
+  - 95: {fileID: 423238941}
+  - 212: {fileID: 423238940}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &423238935
+AudioListener:
+>>>>>>> parent of 9815e11... camera movement is working
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -11546,6 +11569,7 @@ Prefab:
 --- !u!1001 &2057603930
 Prefab:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
@@ -11682,6 +11706,22 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 4da743177040c5d45aa1779f6a13aafc, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &2071000107
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 423238934}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 61b230033a343d64c81fcdabfb0fbf41, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1001 &485534628
+>>>>>>> parent of 9815e11... camera movement is working
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11764,6 +11804,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 496654, guid: 4da743177040c5d45aa1779f6a13aafc, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 158
       objectReference: {fileID: 0}
     - target: {fileID: 169280, guid: 4da743177040c5d45aa1779f6a13aafc, type: 2}
@@ -11772,6 +11813,25 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4da743177040c5d45aa1779f6a13aafc, type: 2}
+=======
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458632, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 110246, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199888, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11458632, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
+>>>>>>> parent of 9815e11... camera movement is working
   m_IsPrefabParent: 0
 --- !u!1001 &2101144993
 Prefab:
@@ -11810,7 +11870,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 496654, guid: 4da743177040c5d45aa1779f6a13aafc, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 181
+=======
+      value: 7
+>>>>>>> parent of 9815e11... camera movement is working
       objectReference: {fileID: 0}
     - target: {fileID: 169280, guid: 4da743177040c5d45aa1779f6a13aafc, type: 2}
       propertyPath: m_Name
@@ -11856,7 +11920,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 496654, guid: 4da743177040c5d45aa1779f6a13aafc, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 72
+=======
+      value: 6
+>>>>>>> parent of 9815e11... camera movement is working
       objectReference: {fileID: 0}
     - target: {fileID: 169280, guid: 4da743177040c5d45aa1779f6a13aafc, type: 2}
       propertyPath: m_Name
@@ -11994,7 +12062,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 496654, guid: 4da743177040c5d45aa1779f6a13aafc, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 140
+=======
+      value: 8
+>>>>>>> parent of 9815e11... camera movement is working
       objectReference: {fileID: 0}
     - target: {fileID: 169280, guid: 4da743177040c5d45aa1779f6a13aafc, type: 2}
       propertyPath: m_Name
