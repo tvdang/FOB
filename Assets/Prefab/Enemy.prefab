@@ -72,9 +72,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   speed: 48
   player: {fileID: 457102, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
 =======
+=======
+>>>>>>> parent of 9815e11... camera movement is working
   speed: 40
   player: {fileID: 0}
 >>>>>>> parent of 9815e11... camera movement is working
@@ -120,6 +123,7 @@ Prefab:
       value: Enemy
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 0}
       propertyPath: speed
       value: 48
@@ -128,6 +132,8 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 457102, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
+=======
+>>>>>>> parent of 9815e11... camera movement is working
 =======
 >>>>>>> parent of 9815e11... camera movement is working
     m_RemovedComponents: []
