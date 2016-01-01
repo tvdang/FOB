@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192484}
   m_LocalRotation: {x: 0, y: -.0087265363, z: 0, w: .999961913}
-  m_LocalPosition: {x: 17.7000008, y: 11.3000002, z: 0}
+  m_LocalPosition: {x: -10.1000004, y: 14.6000004, z: -0}
   m_LocalScale: {x: .5, y: .5, z: .5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -57,9 +57,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -6.92054691e-10, y: 1.52515793}
   serializedVersion: 2
-  m_Size: {x: 8, y: 12}
+  m_Size: {x: 7, y: 8.64968491}
 --- !u!114 &11441460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -71,8 +71,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a90a5e9e84b57bc4299b5e43b49c74fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
-  player: {fileID: 0}
+  speed: 55
+  player: {fileID: 457102, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
 --- !u!212 &21283100
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -114,6 +114,14 @@ Prefab:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: speed
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 457102, guid: bb6bd939899dd414da7a137bfdbbe6e5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 192484}

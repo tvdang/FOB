@@ -12,7 +12,6 @@ GameObject:
   - 61: {fileID: 6199888}
   - 114: {fileID: 11484766}
   - 50: {fileID: 5014640}
-  - 114: {fileID: 11458632}
   - 95: {fileID: 9559336}
   m_Layer: 0
   m_Name: player
@@ -79,17 +78,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11458632
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 110246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb124f494618583499bbd187d9b067ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11484766
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -101,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7510e8adf5b0ef0409282c4b7ffba93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 65
 --- !u!212 &21241274
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -137,6 +125,14 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: speed
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

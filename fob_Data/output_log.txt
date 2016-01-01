@@ -17,28 +17,28 @@ Loading C:\Users\tvdan\Documents\FOB\fob_Data\Managed\UnityEngine.UI.dll into Un
 Platform assembly: C:\Users\tvdan\Documents\FOB\fob_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\tvdan\Documents\FOB\fob_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\tvdan\Documents\FOB\fob_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.061 seconds
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+- Completed reload, in  0.156 seconds
+desktop: 1920x1080 60Hz; virtual: 3600x1080 at -1680,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\tvdan\Documents\FOB\fob_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 5bb0 -> priority: 1 
-  Thread -> id: 62f8 -> priority: 1 
+  Thread -> id: 279c -> priority: 1 
+  Thread -> id: 3cc4 -> priority: 1 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.405539 ms
+UnloadTime: 15.847955 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 325.
-Total: 0.261723 ms (FindLiveObjects: 0.024376 ms CreateObjectMapping: 0.020527 ms MarkObjects: 0.204845 ms  DeleteObjects: 0.011118 ms)
+Total: 0.238202 ms (FindLiveObjects: 0.027797 ms CreateObjectMapping: 0.019672 ms MarkObjects: 0.177903 ms  DeleteObjects: 0.011546 ms)
 
 Collision
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.729149 ms
+UnloadTime: 0.384459 ms
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 281.
-Total: 0.663290 ms (FindLiveObjects: 0.036350 ms CreateObjectMapping: 0.037205 ms MarkObjects: 0.383605 ms  DeleteObjects: 0.204845 ms)
+Total: 0.322450 ms (FindLiveObjects: 0.015823 ms CreateObjectMapping: 0.017961 ms MarkObjects: 0.194581 ms  DeleteObjects: 0.093228 ms)
 

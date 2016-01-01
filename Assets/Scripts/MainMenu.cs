@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
     public Button scoreText;
     public Button aboutText;
     public Button exitText;
+    //public Button Mainmenu;
     
     void Start()
     {
@@ -21,7 +22,8 @@ public class MainMenu : MonoBehaviour
         exitText = exitText.GetComponent<Button>();
         scoreText = scoreText.GetComponent<Button>();
         aboutText = aboutText.GetComponent<Button>();
-        
+       // Mainmenu = Mainmenu.GetComponent<Button>();
+
         quitMenu.enabled = false;
         scoreMenu.enabled = false;
     }
@@ -57,7 +59,12 @@ public class MainMenu : MonoBehaviour
         scoreText.enabled = true;
         aboutText.enabled = true;
     }
-        public void ExitPress()         // exit press open up exit menu
+    public void YesScorePress()
+    {
+        Application.LoadLevel(4);
+    }
+    
+    public void ExitPress()         // exit press open up exit menu
     {
         //Debug.Log("Exit Pressed");
         quitMenu.enabled = true;
